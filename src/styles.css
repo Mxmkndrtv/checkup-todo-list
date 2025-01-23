@@ -52,6 +52,7 @@ button:hover {
 #task-list {
     list-style-type: none; /* Убираем маркеры списка */
     padding: 0; /* Убираем отступы */
+    left: 20px;
 }
 
 /* Медиазапрос для экранов шириной до 600px */
