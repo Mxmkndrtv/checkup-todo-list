@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация / Авторизация</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -36,7 +36,9 @@
         <h2>Ваши задачи</h2>
 
         <form id="tasks-form">
-            <input type="text" id="tasks-input" placeholder="Введите задачу" required>
+            <label for="tasks-input">Задачи:</label>
+            <input type="text" id="tasks-input" name="tasks-input" required>
+
             <button type="submit">Добавить задачу</button>
         </form>
 

@@ -17,6 +17,7 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 300px;
+    margin-left: 20px; /* Смещение вправо на 2 см (20 пикселей) */
 }
 
 /* Стили для форм */
